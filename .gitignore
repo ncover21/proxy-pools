@@ -1,6 +1,8 @@
 #btye compiles
 __pycache__/
 *.py[cod]
+.pyc
+*.pyc
 
 #environment
 env
