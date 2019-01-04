@@ -1,4 +1,6 @@
-
+#btye compiles
+__pycache__/
+*.py[cod]
 
 #environment
 env
@@ -9,6 +11,7 @@ env
 .pyc
 build/
 lib/
+
 
 # Installer logs
 pip-log.txt
@@ -22,3 +25,8 @@ pip-delete-this-directory.txt
 *.pdb
 *.sqlite3
 *.sql
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
