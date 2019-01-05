@@ -29,6 +29,8 @@ class ProxyPools(Thread):
 					print ("...Starting Full Scrape...")
 				self.timeSinceRun = int(time.time())
 				self.initScrape()
+			else:
+				time.sleep(1)
 
 	def getOne(self):
 		if len(self.readPList) > 0:
